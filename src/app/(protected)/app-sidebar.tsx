@@ -67,9 +67,9 @@ export function AppSidebar() {
     <Sidebar collapsible="icon" variant="floating">
       <SidebarHeader>
         <div className="flex items-center gap-2">
-          <Image src="/logo.png" alt="logo" width={40} height={40} />
+          <Image src="/undraw_github.svg" alt="logo" width={40} height={40} />
           {open && (
-            <h1 className="text-primary/80 text-xl font-bold">Auto Github</h1>
+            <h1 className="text-xl font-bold text-primary/80">Auto Github</h1>
           )}
         </div>
       </SidebarHeader>
@@ -109,7 +109,7 @@ export function AppSidebar() {
                       <div>
                         <div
                           className={cn(
-                            "text-primary flex size-6 items-center justify-center rounded-sm border bg-white text-sm",
+                            "flex size-6 items-center justify-center rounded-sm border bg-white text-sm text-primary",
                             {
                               "bg-primary text-white": true,
                             },
@@ -125,14 +125,16 @@ export function AppSidebar() {
               })}
 
               <div className="h-2"></div>
-              <SidebarMenuItem>
-                <Link href="create">
-                  <Button size="sm" variant={"outline"} className="w-fit">
-                    <Plus />
-                    Create Project
-                  </Button>
-                </Link>
-              </SidebarMenuItem>
+              {open && (
+                <SidebarMenuItem>
+                  <Link href="create">
+                    <Button size="sm" variant={"outline"} className="w-fit">
+                      <Plus />
+                      Create Project
+                    </Button>
+                  </Link>
+                </SidebarMenuItem>
+              )}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

@@ -1,0 +1,41 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Desk -->
+  <rect x="50" y="300" width="540" height="40" fill="#8b4513"/>
+  
+  <!-- Person -->
+  <!-- Head -->
+  <circle cx="320" cy="200" r="40" fill="#ffdab9"/>
+  <!-- Body -->
+  <rect x="280" y="240" width="80" height="100" fill="#4682b4"/>
+  <!-- Arms -->
+  <line x1="240" y1="260" x2="360" y2="260" stroke="#4682b4" stroke-width="20"/>
+  <!-- Chair -->
+  <rect x="280" y="340" width="80" height="20" fill="#666"/>
+  
+  <!-- Computer Setup -->
+  <!-- Monitor -->
+  <rect x="400" y="220" width="160" height="100" fill="#333"/>
+  <rect x="410" y="230" width="140" height="80" fill="#555"/>
+  <!-- Keyboard -->
+  <rect x="380" y="320" width="200" height="40" fill="#666" rx="5"/>
+  <!-- Mouse -->
+  <rect x="600" y="320" width="60" height="40" fill="#666" rx="15"/>
+  
+  <!-- Headset -->
+  <!-- Earpieces -->
+  <circle cx="200" cy="320" r="25" fill="#222"/>
+  <circle cx="260" cy="320" r="25" fill="#222"/>
+  <!-- Headband -->
+  <path d="M200 300 Q230 280 260 300" fill="none" stroke="#222" stroke-width="15"/>
+  <!-- Microphone -->
+  <line x1="230" y1="320" x2="230" y2="350" stroke="#444" stroke-width="5"/>
+  
+  <!-- Details -->
+  <!-- Screen Content -->
+  <text x="420" y="270" font-family="monospace" font-size="20" fill="#00ff00">>_ Coding...</text>
+  <!-- Keyboard Details -->
+  <line x1="390" y1="330" x2="570" y2="330" stroke="#444" stroke-width="2"/>
+</svg>
