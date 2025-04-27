@@ -39,7 +39,6 @@ model Project {
 
 model UserToProject {
     id String @id @default(cuid())
-    createdAt DateTime @default(now())
 
 
 
