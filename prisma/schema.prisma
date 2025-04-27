@@ -43,7 +43,6 @@ model UserToProject {
     updatedAt DateTime @updatedAt
 
     userId String
-    projectId String
 
 
 }
