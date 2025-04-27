@@ -33,7 +33,6 @@ model Project {
     name String
     githubUrl String
 
-    deletedAt DateTime?
 }
 
 
