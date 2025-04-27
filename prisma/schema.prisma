@@ -34,7 +34,6 @@ model Project {
     githubUrl String
 
     deletedAt DateTime?
-    userToProject UserToProject[]
 }
 
 
