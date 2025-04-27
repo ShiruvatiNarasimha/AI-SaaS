@@ -42,7 +42,6 @@ model UserToProject {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 
-    userId String
 
 
 }
