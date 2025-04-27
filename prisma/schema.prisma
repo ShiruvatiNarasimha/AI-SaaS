@@ -26,7 +26,6 @@ model User {
 }
 
 model Project {
-    id String @id @default(cuid())
 
 
 
