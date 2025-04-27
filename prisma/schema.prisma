@@ -25,7 +25,6 @@ model User {
     userToProject UserToProject[]
 }
 
-model Project {
 
 
 
