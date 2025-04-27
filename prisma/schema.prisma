@@ -17,6 +17,5 @@ model User {
 
     imageUrl String?
     firstName String?
-    lastName String?
 
 
