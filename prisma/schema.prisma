@@ -45,7 +45,6 @@ model UserToProject {
     userId String
     projectId String
 
-    user User @relation(fields: [userId], references: [id])
 
 }
 
