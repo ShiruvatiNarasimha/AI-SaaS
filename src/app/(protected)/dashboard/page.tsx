@@ -8,4 +8,3 @@ const DashboardPage = () => {
   return <div>{user?.firstName}</div>;
 };
 
-export default DashboardPage;
